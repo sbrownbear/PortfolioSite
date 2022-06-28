@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1; /* цвет фона */
+    color: #0f141e; /* цвет шрифта */
+    font-size: 16px; /* размер шрифта */
+    font-weight: normal; /* жирность шрифта */
+    /* font-family: 'Courier New', Courier, monospace; стиль шрифта */
+    font-family: 'Roboto', sans-serif; /* стиль шрифта */
+
+}
+
+a {
+    color: black; /* цвет шрифта */
+    text-decoration: none; /* убрать нижнее подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* при наведении мыши появляется нижнее подчеркивание */
+}
+
+a:active {
+    color: blue; /* при нажатии мыши появляется синий цвет*/
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px; /* размер авы */
+    border-radius: 28px; /* закругление авы */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025); /* тень авы */
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block
+    }
+}
+
+.info p {
+    color: #86898f; /* цвет шрифта */
+    margin: 0; /* отступы строк */
+    font-style: italic; /* наклон строк */
+    text-decoration: none; /* зачеркнуть, подчеркнуть строку */
+    /* text-transform: ; в верхнем, нижнем регистре или с большой буквы строка */
+    /* letter-spacing: 15px; кол-во пикселей между букв */
+    /* word-spacing: 15px; кол-во пикселей между слов */
+}
+.container {
+    max-width: 750px;
+    margin: auto; /* весь контент посередине */
+    padding-top: 30px;
+}
+
+/* .social {
+    background: green;
+    padding: 15px; /* внутренние отступы */
+    /* border: 5px solid red; /* граница бокса
+} */
+
+/* .box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px; /* отступы */
+}
+
+.list li {
+    margin-bottom: 5px; /* отступы строк друг от друга */
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block; /* каждая форма находиться на своей строчке */
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
